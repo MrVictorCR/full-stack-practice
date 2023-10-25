@@ -1,0 +1,22 @@
+This is going to be my Study Program:
+    What I would need to learn to be a full stack developer?
+Firstable I need to learn about:
+    JS: Objects, Arrays, Conditionals
+    React: EVERYTING = Components, Hooks, Props
+    Learn TypeScrip
+    CSS: Pretty Aplication skills (or UI libraries = Next UI)
+Then, I need to Create some projects with this info
+
+Once I do 4 or 5 different projects with that I'm going to be able to start with Back-end:
+    Node with Express
+    Every DataBase that I would learn:
+        MongoDB
+        Posgres
+        MySQL
+        GrafQL
+With that info I can create Full Stack projects:
+    E-commerce
+    Real Aplications that are going to be usefull in daily life
+
+As aditional:
+    Next and Nest
