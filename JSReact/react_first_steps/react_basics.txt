@@ -1,0 +1,49 @@
+
+React meanings:
+
+Components: User interface part that it is independable and I can reuse it
+    Each component will have an "State" that is unique from another component, I can reuse that component
+    Component = "A block"
+
+    Components will have different cathegories, but, the primaries would be:
+        FUNCTIONAL COMPONENTS and CLASS COMPONENTS, I'm going to be working with "Functional"
+
+        FUNCTIONAL COMPONENTS: A JavaScript function that return a React element.
+            The component function should start with a Mayusc Letter = function Hello(props){return instructions}
+            It can receive parameters ("props") = "Properties" are arguments that a React component can receive
+            We can have Components inside another Comoponent, 1 component could receive a Prop, so basically a Prop is an Object,
+                with that object we can use their properties
+            Props can only be send from the father class as inheritance 
+
+        Class Component: This would be ES6 that just return a JSX element
+                Their sintaxys is different:
+                    It needs to extend a React.Component
+                    It needs to have a Render() method to return the JSX element
+                    It can receive values if it is need it
+
+                    I have to use "this", it means that specifically component or prop that I would be able to use
+                
+State: JavaScript representantion about set of properties from a component and their current values
+
+Hooks: I can add/assing/update a state to a functional component 
+
+Event Listener/Handler: JavaScript function that is executed when a specific event occurs
+
+JSX = .jsx means React extension for JavaScript sintaxys
+    It led me to describe in JavaScript how a component would be displayed using an HTML-like structure.
+
+In JSX appear an Element, an Element is different that a Component
+    A "Component" is a element combination
+    Element: It is just 1 piece from React
+        With an Element from a JSX I can use whatever from HTML:
+            <div>, <img>, so on
+
+DOM (Document Object Model) = Web representation from all the elements that make up a website or app
+
+Class from HTML = className in JSX
+for from HTML = htmlFor in JSX
+
+To use "CSS" on JS we have to create a JSX, I'mg going to create a "const" from JS but in ther "{}" I will add the "CSS code"
+
+If we use "{}" means that we are using JS, so, I can create a "var" from JS and then I would be able to use it in the JSX file inside the "{}"
+ 
