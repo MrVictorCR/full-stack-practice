@@ -8,12 +8,14 @@
     background-color: #fff;
     box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
     border-radius: 15px;
+    
 }
 
 .imagen-testimonio{
     height: 100%;
     width: auto;
     border-radius: 15px;
+    
 }
 
 .contenedor-texto-testimonio{
@@ -22,6 +24,7 @@
     font-family: Lato, sans-serif;
     font-weight: 400;
     line-height: 1.5rem;
+    
 }
 
 .nombre-testimonio{
