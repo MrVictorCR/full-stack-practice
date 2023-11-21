@@ -1,9 +1,14 @@
-import React from 'react';
+import '../styles/button.css';
 
-function button({text}) {
+function Button({ text, isClickButton, clickManage }) {
+    // The fisrt two parameters are props and the last one is a function
     return (
-        <button>
+        <button
+            className={ isClickButton ? 'button-click' : 'button-reboot' }
+            onClick={clickManage}>
             {text}
         </button>
     );
 }
+
+export default Button;
