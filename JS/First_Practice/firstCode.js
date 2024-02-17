@@ -1,3 +1,5 @@
+// Prompt function = the user can enter whatever the user wants
+// prompt(Hello)
 
 /* 
     Comments
@@ -12,6 +14,7 @@ console.log("Hello World")
 //- Vars //
 
 // Let is going to be create a var but in this case var is going to be a GLOBAR VAR so, that is not "save at all"
+// So, let is going to be use in the SCOPE that it is been used, que tan lejos puede llegar una variable
 let myNumber = 6.8
 
 myNumber = 7 // Changing the value as normal
@@ -23,6 +26,8 @@ let myString = "Halo" // String
 const myConst = 7 // Constant, var that can not change
 
 let myNull = null // Null var
+
+let undefined // undefined, when a let is not declared 
 
 // --- //
 
@@ -128,6 +133,3 @@ console.log(myEnum)
 // ------- //
 
 //-----------------------------------------------------------------------------------------------------------------//
-
-
-
