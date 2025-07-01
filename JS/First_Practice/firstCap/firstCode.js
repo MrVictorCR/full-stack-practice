@@ -29,8 +29,17 @@ let myNull = null // Null var
 
 let undefined // undefined, when a let is not declared 
 
+let mySymbol = Symbol('mysymbol') // Unique values, like IDs for properties, cannot change
+
+let myBigInt = BigInt() // Numero de Datos Enteros muuuuuuy grandes
+
 // --- //
 
+// - Operators - //
+
+/*
+    valor & type = ===
+*/
 
 // - Logical Operators - //
 
@@ -38,7 +47,17 @@ let undefined // undefined, when a let is not declared
     and = &&
     or = ||
     not = !
+
 */
+
+// - Operador Ternario - //
+
+const myBool2 = false
+
+myBool2 ? console.log("Hola") : console.log("Adios")
+
+// Lo que esta despues del ? se ejecuta if it's true, if not executes the code after the ':'
+
 // ------------------- //
 
 // - Conditionals - //
