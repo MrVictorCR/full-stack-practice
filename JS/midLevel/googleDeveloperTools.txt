@@ -1,0 +1,14 @@
+Tools desde la parte Developer de Chrome
+
+Pestaña Elements: Aparecen los elementos del HTML y tiene varias opciones de herramientas del DOM
+
+Pestaña Sources: Se pueden actualizar los archivos desde el Navegador, existen los Snippets que son:
+    Archivos que puedo agregar codigo JS y se guardan en el navegador, entonces si posterior a cerrar el HTML lo abro
+    y quiero ejecutar el Snippet ahi estara se Guardan con Ctrl + Enter / '+' y se ejecutan con Ctrl + S
+
+Pestaña networks: Muestra los archivos y lo que dura estos en abrir, el estado, tipo, iniciador, size, tiempo de respuesta, etc
+    Esto es util para mejorar el rendimiento de la pagina
+
+Pestaña Timeline/Performance: Muestra rendimiento del uso de la pagina y a su vez lo que consume, por ende,
+    si fuera necesario actualizar algo para mejorar el rendimiento nos ayudaria a envidenciar que proceso seria
+
